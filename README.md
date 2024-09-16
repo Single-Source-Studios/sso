@@ -9,7 +9,7 @@ Single Sign-On for PHP
 [![Packagist Stable Version](https://img.shields.io/packagist/v/jasny/sso.svg)](https://packagist.org/packages/jasny/sso)
 [![Packagist License](https://img.shields.io/packagist/l/jasny/sso.svg)](https://packagist.org/packages/jasny/sso)
 
-Jasny SSO is a relatively simple and straightforward solution for single sign on (SSO).
+NetBuild SSO is a relatively simple and straightforward solution for single sign on (SSO).
 
 With SSO, logging into a single website will authenticate you for all affiliate sites. The sites don't need to share a
 toplevel domain.
@@ -45,14 +45,14 @@ aren't sharing a session.
 A user logs in to website foo.com using Google OAuth. Next they visit website bar.org which also uses Google OAuth.
 Regardless of that, they are still required to press the 'login' button on bar.org.
 
-With Jasny SSO both websites use the same session. So when the user visits bar.org, they are automatically logged in.
+With NetBuild SSO both websites use the same session. So when the user visits bar.org, they are automatically logged in.
 When they log out (on either of the sites), they are logged out for both.
 
 ## Installation
 
 Install this library through composer
 
-    composer require jasny/sso
+    composer require netbuild/sso
 
 ## Demo
 

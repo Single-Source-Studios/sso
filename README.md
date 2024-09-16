@@ -35,7 +35,7 @@ doing requests, it passes that hash as a session id.
 The server will notice that the session id is a link and use the linked session. As such, the broker and client are
 using the same session. When another broker joins in, it will also use the same session.
 
-For a more in depth explanation, please [read this article](https://github.com/jasny/sso/wiki).
+For a more in depth explanation, please [read this article](https://github.com/Single-Source-Studios/sso/wiki).
 
 ### How is this different from OAuth?
 

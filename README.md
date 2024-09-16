@@ -52,7 +52,7 @@ When they log out (on either of the sites), they are logged out for both.
 
 Install this library through composer
 
-    composer require netbuild/sso
+    composer require jasny/sso
 
 ## Demo
 
